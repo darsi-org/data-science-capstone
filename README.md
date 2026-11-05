@@ -1,5 +1,8 @@
 # Capstone: what predicts a struggling student?
 
+
+> **Darsi briefs are short on purpose.** The in-app lesson shows tight numbered clicks. This README keeps the full commands, error fixes, and background for each milestone — open the matching **Milestone N** section when you need detail.
+
 Use a public student dataset to explore limits, beat a simple baseline with honest cross-validation, report uncertainty with a bootstrap, check fairness across groups, and write a two-page memo a head teacher could use.
 
 [العربية](README.ar.md)
