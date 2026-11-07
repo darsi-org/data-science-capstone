@@ -50,7 +50,7 @@ SPEC = json.loads(r'''{
   {
    "id": "m2",
    "en": "Milestone 2: A baseline, then three models",
-   "ar": "المرحلة ٢: خط أساس، وبعدين تلاتة موديلات",
+   "ar": "المرحلة ٢: خط أساس، وبعدين تلات نماذج",
    "checks": [
     {
      "type": "json",
@@ -94,6 +94,13 @@ SPEC = json.loads(r'''{
      "key": "baseline_ci95",
      "en": "…and the baseline's interval",
      "ar": "…وفترة خط الأساس"
+    },
+    {
+     "type": "json",
+     "path": "results/test.json",
+     "key": "diff_ci95",
+     "en": "…and a paired interval for the difference (baseline MAE − model MAE)",
+     "ar": "…وفترة مقترنة للفرق (MAE خط الأساس ناقص MAE النموذج)"
     }
    ]
   },
@@ -132,7 +139,7 @@ SPEC = json.loads(r'''{
     {
      "type": "regex",
      "path": "MEMO.md",
-     "pattern": "should not|must not|لا ينبغي|لا يجب",
+     "pattern": "should not|shouldn['’]t|must not|mustn['’]t|do not|don['’]t|never|لا ينبغي|لا يجب|يجب [أا]لّ?ا|ينبغي [أا]لّ?ا",
      "min": 1,
      "en": "MEMO.md says what a school should not do",
      "ar": "يذكر MEMO.md ما لا ينبغي للمدرسة فعله"

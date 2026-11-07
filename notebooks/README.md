@@ -1,1 +1,2 @@
-Make 01_explore.ipynb here (open it in Colab from the badge in README.md). Save charts in figures/.
+Open 01_explore.ipynb in VS Code, Jupyter or Colab (the Colab link is in the main README.md) and run its first cell first:
+it works from the repository's top folder and fetches the data. Save charts in figures/ at the top of the repository.
